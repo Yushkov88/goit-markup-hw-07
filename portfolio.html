@@ -25,28 +25,34 @@
 
   <body class="page">
     <!-- Шапка -->
-    <header class="page-header">
+    <header class="header">
       <div class="container">
-        <nav class="nav-flex">
-          <a href="" class="logo"><span class="span-logo">Web</span>Studio</a>
-          <ul class="site-nav list">
-            <li class="item"><a href="./index.html" class="link">Студия</a></li>
-            <li class="item"><a href="" class="link current">Портфолио</a></li>
-            <li class="item"><a href="" class="link">Контакты</a></li>
+        <nav class="navigation">
+          <a href="" class="logo"><span class="logo__web">Web</span>Studio</a>
+          <ul class="site-nav header__nav list">
+            <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__link">Студия</a>
+            </li>
+            <li class="site-nav__item">
+              <a href="" class="site-nav__link current">Портфолио</a>
+            </li>
+            <li class="site-nav__item">
+              <a href="" class="site-nav__link">Контакты</a>
+            </li>
           </ul>
         </nav>
-        <ul class="contacts list">
-          <li class="item-nav">
-            <a href="mailto:info@devstudio.com" class="link"
-              ><svg class="link-nav" width="16" height="12">
+        <ul class="contacts contacts_header list">
+          <li class="connect">
+            <a href="mailto:info@devstudio.com" class="connect__link"
+              ><svg class="connect__icon header__svg" width="16" height="12">
                 <use href="./Image/symbol-defs.svg#icon-letter"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="item-nav">
-            <a href="tel:+380961111111" class="link"
-              ><svg class="link-nav" width="10" height="16">
+          <li class="connect">
+            <a href="tel:+380961111111" class="connect__link"
+              ><svg class="connect__icon header__svg" width="10" height="16">
                 <use href="./Image/symbol-defs.svg#icon-phone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -60,180 +66,178 @@
       <section class="section filters">
         <div class="container">
           <h1 class="visually-hidden">Скрытый заголовок</h1>
-          <ul class="filters-list list">
-            <li class="filters-list-item">
-              <button type="button" class="filters-btn current secondary">
+          <ul class="filters__list list">
+            <li class="filters__item">
+              <button type="button" class="filters__btn current secondary">
                 Все
               </button>
             </li>
-            <li class="filters-list-item">
-              <button type="button" class="filters-btn secondary">
+            <li class="filters__item">
+              <button type="button" class="filters__btn secondary">
                 Веб-сайты
               </button>
             </li>
-            <li class="filters-list-item">
-              <button type="button" class="filters-btn secondary">
+            <li class="filters__item">
+              <button type="button" class="filters__btn secondary">
                 Приложения
               </button>
             </li>
-            <li class="filters-list-item">
-              <button type="button" class="filters-btn secondary">
+            <li class="filters__item">
+              <button type="button" class="filters__btn secondary">
                 Дизайн
               </button>
             </li>
-            <li class="filters-list-item">
-              <button type="button" class="filters-btn secondary">
+            <li class="filters__item">
+              <button type="button" class="filters__btn secondary">
                 Маркетинг
               </button>
             </li>
           </ul>
 
-          <ul class="pictures-list list">
-            <li class="pictures-list-item">
-              <a href="" class="pictures-link">
-                <div class="pictures-top-wrap">
+          <ul class="pictures__list list">
+            <li class="pictures__item">
+              <a href="" class="pictures__link">
+                <div class="pictures__wrap">
                   <img src="./ImageHW2/1.jpg" alt="Веб-сайт" width="370" />
-                  <p class="pictures-top-text">
+                  <p class="pictures__top-text">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="pictures-list-name">
-                  <h2 class="pictures-list-title">Технокряк</h2>
-                  <p class="pictures-list-text">Веб-сайт</p>
+                <div class="pictures__name">
+                  <h2 class="pictures__title">Технокряк</h2>
+                  <p class="pictures__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="pictures-list-item">
-              <a href="" class="pictures-link">
-                <div class="pictures-top-wrap">
+            <li class="pictures__item">
+              <a href="" class="pictures__link">
+                <div class="pictures__wrap">
                   <img src="./ImageHW2/2.jpg" alt="Постер" width="370" />
-                  <p class="pictures-top-text">
+                  <p class="pictures__top-text">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="pictures-list-name">
-                  <h2 class="pictures-list-title">
+                <div class="pictures__name">
+                  <h2 class="pictures__title">
                     Постер New Orlean vs Golden Star
                   </h2>
-                  <p class="pictures-list-text">Дизайн</p>
+                  <p class="pictures__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="pictures-list-item">
-              <a href="" class="pictures-link">
-                <div class="pictures-top-wrap">
+            <li class="pictures__item">
+              <a href="" class="pictures__link">
+                <div class="pictures__wrap">
                   <img src="./ImageHW2/3.jpg" alt="Ресторан" width="370" />
-                  <p class="pictures-top-text">
+                  <p class="pictures__top-text">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="pictures-list-name">
-                  <h2 class="pictures-list-title">Ресторан Seafood</h2>
-                  <p class="pictures-list-text">Приложение</p>
+                <div class="pictures__name">
+                  <h2 class="pictures__title">Ресторан Seafood</h2>
+                  <p class="pictures__text">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="pictures-list-item">
-              <a href="" class="pictures-link">
-                <div class="pictures-top-wrap">
+            <li class="pictures__item">
+              <a href="" class="pictures__link">
+                <div class="pictures__wrap">
                   <img src="./ImageHW2/4.jpg" alt="Наушники" width="370" />
-                  <p class="pictures-top-text">
+                  <p class="pictures__top-text">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="pictures-list-name">
-                  <h2 class="pictures-list-title">Проект Prime</h2>
-                  <p class="pictures-list-text">Маркетинг</p>
+                <div class="pictures__name">
+                  <h2 class="pictures__title">Проект Prime</h2>
+                  <p class="pictures__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="pictures-list-item">
-              <a href="" class="pictures-link">
-                <div class="pictures-top-wrap">
+            <li class="pictures__item">
+              <a href="" class="pictures__link">
+                <div class="pictures__wrap">
                   <img src="./ImageHW2/5.jpg" alt="Коробки" width="370" />
-                  <p class="pictures-top-text">
+                  <p class="pictures__top-text">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="pictures-list-name">
-                  <h2 class="pictures-list-title">Проект Boxes</h2>
-                  <p class="pictures-list-text">Приложение</p>
+                <div class="pictures__name">
+                  <h2 class="pictures__title">Проект Boxes</h2>
+                  <p class="pictures__text">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="pictures-list-item">
-              <a href="" class="pictures-link">
-                <div class="pictures-top-wrap">
+            <li class="pictures__item">
+              <a href="" class="pictures__link">
+                <div class="pictures__wrap">
                   <img src="./ImageHW2/6.jpg" alt="Веб-сайт" width="370" />
-                  <p class="pictures-top-text">
+                  <p class="pictures__top-text">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="pictures-list-name">
-                  <h2 class="pictures-list-title">
-                    Inspiration has no Borders
-                  </h2>
-                  <p class="pictures-list-text">Веб-сайт</p>
+                <div class="pictures__name">
+                  <h2 class="pictures__title">Inspiration has no Borders</h2>
+                  <p class="pictures__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="pictures-list-item">
-              <a href="" class="pictures-link">
-                <div class="pictures-top-wrap">
+            <li class="pictures__item">
+              <a href="" class="pictures__link">
+                <div class="pictures__wrap">
                   <img src="./ImageHW2/7.jpg" alt="Книга" width="370" />
-                  <p class="pictures-top-text">
+                  <p class="pictures__top-text">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="pictures-list-name">
-                  <h3 class="pictures-list-title">Издание Limited Edition</h3>
-                  <p class="pictures-list-text">Дизайн</p>
+                <div class="pictures__name">
+                  <h3 class="pictures__title">Издание Limited Edition</h3>
+                  <p class="pictures__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="pictures-list-item">
-              <a href="" class="pictures-link">
-                <div class="pictures-top-wrap">
+            <li class="pictures__item">
+              <a href="" class="pictures__link">
+                <div class="pictures__wrap">
                   <img src="./ImageHW2/8.jpg" alt="Этикетка" width="370" />
-                  <p class="pictures-top-text">
+                  <p class="pictures__top-text">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="pictures-list-name">
-                  <h2 class="pictures-list-title">Проект LAB</h2>
-                  <p class="pictures-list-text">Маркетинг</p>
+                <div class="pictures__name">
+                  <h2 class="pictures__title">Проект LAB</h2>
+                  <p class="pictures__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="pictures-list-item">
-              <a href="" class="pictures-link">
-                <div class="pictures-top-wrap list">
+            <li class="pictures__item">
+              <a href="" class="pictures__link">
+                <div class="pictures__wrap list">
                   <img src="./ImageHW2/9.jpg" alt="Продукт" width="370" />
-                  <p class="pictures-top-text">
+                  <p class="pictures__top-text">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="pictures-list-name">
-                  <h2 class="pictures-list-title">Growing Business</h2>
-                  <p class="pictures-list-text">Приложение</p>
+                <div class="pictures__name">
+                  <h2 class="pictures__title">Growing Business</h2>
+                  <p class="pictures__text">Приложение</p>
                 </div>
               </a>
             </li>
@@ -244,58 +248,60 @@
     <!-- Футер -->
     <footer class="section footer">
       <div class="container">
-        <div class="container-footer">
-          <div class="container-address">
+        <div class="container__footer">
+          <div class="container__address">
             <a href="" class="logo"
-              >Web<span class="span-logo-footer">Studio</span></a
+              >Web<span class="footer__logo">Studio</span></a
             >
-            <address class="footer-adr">
-              <ul class="footer-list list">
-                <li class="footer-list-item">
+            <address class="footer__adr">
+              <ul class="footer__list list">
+                <li class="footer__item">
                   <a
                     href="https://goo.gl/maps/ig4sHkHrLvTvoZ76A"
-                    class="address"
+                    class="footer__address"
                     >г. Киев, пр-т Леси Украинки, 26</a
                   >
                 </li>
-                <li class="footer-list-item">
-                  <a href="mailto:info@example.com" class="link"
+                <li class="footer__item">
+                  <a href="mailto:info@example.com" class="footer__link"
                     >info@example.com</a
                   >
                 </li>
-                <li class="footer-list-item">
-                  <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
+                <li class="footer__item">
+                  <a href="tel:+380991111111" class="footer__link"
+                    >+38 099 111 11 11</a
+                  >
                 </li>
               </ul>
             </address>
           </div>
           <div class="join">
-            <h2 class="join-soc-title">ПРИСОЕДЕНЯЙТЕСЬ</h2>
-            <ul class="join-soc-list list">
-              <li class="join-soc-item">
-                <a href="" class="join-soc-link"
-                  ><svg class="team-list-icon" width="20" height="20">
+            <h2 class="join__title">ПРИСОЕДЕНЯЙТЕСЬ</h2>
+            <ul class="join__list list">
+              <li class="join__item">
+                <a href="" class="join__link"
+                  ><svg width="20" height="20">
                     <use href="./Image/symbol-defs.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
-              <li class="join-soc-item">
-                <a href="" class="join-soc-link"
-                  ><svg class="team-list-icon" width="20" height="20">
+              <li class="join__item">
+                <a href="" class="join__link"
+                  ><svg width="20" height="20">
                     <use href="./Image/symbol-defs.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
-              <li class="join-soc-item">
-                <a href="" class="join-soc-link"
-                  ><svg class="team-list-icon" width="20" height="20">
+              <li class="join__item">
+                <a href="" class="join__link"
+                  ><svg width="20" height="20">
                     <use href="./Image/symbol-defs.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
-              <li class="join-soc-item">
-                <a href="" class="join-soc-link"
-                  ><svg class="team-list-icon" width="20" height="20">
+              <li class="join__item">
+                <a href="" class="join__link"
+                  ><svg width="20" height="20">
                     <use href="./Image/symbol-defs.svg#icon-linkedin"></use>
                   </svg>
                 </a>
@@ -303,19 +309,19 @@
             </ul>
           </div>
           <div class="subscribe">
-            <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
-            <form class="subsribe-form">
-              <label class="subscribe-label">
+            <h2 class="subscribe__title">Подпишитесь на рассылку</h2>
+            <form class="subsribe__form">
+              <label class="subscribe__label">
                 <input
                   type="email"
                   name="email"
-                  class="sub-email"
+                  class="subsribe__email"
                   placeholder="E-mail"
                 />
               </label>
-              <button type="submit" class="sub-btn">
+              <button type="submit" class="subsribe__btn">
                 Подписаться
-                <svg class="sub-svg" width="24" height="24">
+                <svg class="subsribe__icon" width="24" height="24">
                   <use href="./Image/symbol-defs.svg#icon-icon-send"></use>
                 </svg>
               </button>
