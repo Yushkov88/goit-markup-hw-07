@@ -1,0 +1,12 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --bcg-team-color: #f5f4fa;
+  --bgc-header: #ececec;
+  --bgc-hero-footer: #2f303a;
+  --logo: #000000;
+  --icon-text: #afb1b8;
+  --icon-bgc: #ffffff;
+  --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+}/*# sourceMappingURL=variables.css.map */
