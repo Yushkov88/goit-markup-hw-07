@@ -2,59 +2,61 @@
   background-color: var(--bgc-hero-footer);
   padding-top: 60px;
   padding-bottom: 60px;
+
+  &__logo {
+    font-family: 'Raleway';
+    color: #ffffff;
+  }
+
+  &__adr {
+    margin-top: 20px;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+
+  &__list &__address {
+    color: #ffffff;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    margin-bottom: 10px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--cubic-bezier);
+  }
+
+  & .logo {
+    color: var(--accent-color);
+  }
+
+  &__list &__link {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 10px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--cubic-bezier);
+  }
+
+  &__list &__link:hover,
+  &__list &__link:focus,
+  &__list &__address:hover,
+  &__list &__address:focus {
+    color: var(--accent-color);
+  }
 }
+
 .container__footer {
   display: flex;
   align-items: baseline;
-}
-.container__address {
-  flex-grow: 1;
-}
-.footer__logo {
-  font-family: 'Raleway';
-  color: #ffffff;
-}
-.footer__adr {
-  margin-top: 20px;
-}
 
-.footer__item:not(:last-child) {
-  margin-bottom: 9px;
-}
-
-.footer__list .footer__address {
-  color: #ffffff;
-  font-style: normal;
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 1.71;
-  margin-bottom: 10px;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: var(--cubic-bezier);
-  /* outline: 2px solid tomato; */
-}
-
-.footer .logo {
-  color: var(--accent-color);
-}
-
-.footer__list .footer__link {
-  text-decoration: none;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 10px;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: var(--cubic-bezier);
-  /* outline: 2px solid tomato; */
-}
-
-.footer__list .footer__link:hover,
-.footer__list .footer__link:focus,
-.footer__list .footer__address:hover,
-.footer__list .footer__address:focus {
-  color: var(--accent-color);
+  &__address {
+    flex-grow: 1;
+  }
 }

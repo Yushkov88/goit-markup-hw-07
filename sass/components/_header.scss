@@ -8,6 +8,12 @@
     display: flex;
     align-items: center;
   }
+  &__nav {
+    margin-left: 93px;
+  }
+  &__svg {
+    margin-right: 10px;
+  }
 }
 
 .logo {
@@ -19,98 +25,4 @@
   &__web {
     color: var(--accent-color);
   }
-}
-
-.site-nav {
-  display: flex;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-.header__nav {
-  margin-left: 93px;
-}
-.site-nav .site-nav__item:not(:last-child) {
-  margin-right: 50px;
-}
-.site-nav .site-nav__item {
-  position: relative;
-}
-.site-nav .site-nav__link {
-  color: var(--primary-text-color);
-  text-decoration: none;
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  cursor: pointer;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  /* outline: 2px solid black; */
-}
-
-.site-nav .site-nav__link:hover,
-.site-nav .site-nav__link:focus {
-  color: var(--accent-color);
-}
-
-.site-nav .site-nav__link.current::after {
-  display: inline-block;
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  content: '';
-  width: 100%;
-  height: 4px;
-  background: var(--accent-color);
-  border-radius: 2px;
-}
-.site-nav .site-nav__link.current {
-  color: var(--accent-color);
-}
-.connect .connect__link {
-  display: flex;
-  align-items: center;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: var(--cubic-bezier);
-}
-.connect__icon {
-  fill: currentColor;
-}
-.header__svg {
-  margin-right: 10px;
-}
-
-.contacts {
-  color: var(--secondary-text-color);
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  display: flex;
-
-  /* outline: 2px solid black; */
-}
-.contacts__header {
-  margin-left: auto;
-}
-.contacts .connect__link {
-  display: flex;
-  color: var(--secondary-text-color);
-  fill: var(--secondary-text-color);
-  text-decoration: none;
-  transition-property: fill, color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contacts > .connect:first-child {
-  margin-right: 50px;
-}
-.contacts .connect__link:hover,
-.contacts .connect__link:focus {
-  color: var(--accent-color);
-  fill: var(--accent-color);
 }
