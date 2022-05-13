@@ -1,25 +1,24 @@
 .header {
   border-bottom: 1px solid #ececec;
+  & .container {
+    display: flex;
+    align-items: center;
+  }
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
 }
-.header .container {
-  display: flex;
-  align-items: center;
-}
+
 .logo {
   color: var(--logo);
   text-decoration: none;
   font-family: 'Raleway';
   font-size: 26px;
   line-height: 1.19;
-  /* outline: 2px solid black; */
-}
-
-.logo__web {
-  color: var(--accent-color);
-}
-.navigation {
-  display: flex;
-  align-items: center;
+  &__web {
+    color: var(--accent-color);
+  }
 }
 
 .site-nav {

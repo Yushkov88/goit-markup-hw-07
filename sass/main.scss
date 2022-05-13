@@ -1,5 +1,15 @@
-@import './utils/variables.scss';
+@import './utils/variables';
 @import './components/header';
 @import './components/hero';
 @import './components/features';
 @import './components/work';
+@import './components/team';
+@import './components/clients';
+@import './components/footer';
+@import './components/join';
+@import './components/subscribe';
+//Портфолио//
+@import './components/filters';
+@import './components/pictures';
+@import './components/backdrop';
+@import './components/modal';
